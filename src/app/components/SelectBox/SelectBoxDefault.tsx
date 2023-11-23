@@ -8,7 +8,7 @@ type Props = {
   label?: string
   selectOptionArray?: { key: string; value: string|number }[],
   selectedValue: string|number, 
-  locationId: string|number,  
+  locationId?: string|number,  
   onParentSelectChange: (locationId: string | number, selectedValue: string | number) => void;
 }
 
