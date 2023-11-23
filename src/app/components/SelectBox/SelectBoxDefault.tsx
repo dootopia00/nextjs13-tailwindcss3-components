@@ -2,6 +2,8 @@ import { Children, cloneElement, ReactElement } from 'react'
 import type { ReactNode } from 'react'
 import React, { useState } from 'react';
 
+{/* <SelectBoxDefault selectedValue={1} onParentSelectChange={handlerSelectChange} selectOptionArray={[{key: '비활성', value: 0}, {key: '활성', value: 1}]} /> */}
+
 type Props = {
   label?: string
   selectOptionArray?: { key: string; value: string|number }[],
